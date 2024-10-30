@@ -1,7 +1,5 @@
 package HomeWork14;
 
-import java.util.Arrays;
-
 /*
 Task 1
 Сумма четных чисел
@@ -11,12 +9,13 @@ Task 1
  */
 public class Task_1 {
     public static void main(String[] args) {
-        System.out.println(sum());
+        int[] numbers = {1, -4, 2, 3, 4};
+        System.out.println("Результат суммы четных чисел = " + sum(numbers));
 
     }
-    public static int sum() {
-        int[] numbers = {1, 1, 8, 3, 4};
+    public static int sum(int[] numbers) {
         int sum = 0;
+
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 == 0) {
                 sum = sum + numbers[i];
