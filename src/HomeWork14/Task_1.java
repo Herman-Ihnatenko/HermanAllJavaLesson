@@ -15,14 +15,11 @@ public class Task_1 {
 
     }
     public static int sum() {
-        int[] numbers = {-8, 1, 2, 3, 4};
+        int[] numbers = {1, 1, 8, 3, 4};
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] < 0) sum = sum;
-
-            else {
+            if (numbers[i] % 2 == 0) {
                 sum = sum + numbers[i];
-
             }
         }
         return sum;
