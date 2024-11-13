@@ -31,7 +31,7 @@ public class ArrayApp {
         System.out.println(magicArray.toString());
 
         System.out.println("\n =============lastIndexOf========");
-        System.out.println(magicArray.lastIndexOf(50));
+        System.out.println("magicArray.lastIndexOf(50): "+magicArray.lastIndexOf(50));
         System.out.println("\n =============and========");
         //System.out.println(magicArray);
         System.out.println(Arrays.toString(magicArray.toArray()));
