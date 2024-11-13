@@ -8,19 +8,19 @@ package HomeWork18;
 //принимающие два аргумента и возвращающие результат операции.
 
 public class Calculator {
-     private static double sum(double a, double b){
+     public static double sum(double a, double b){
         return a+b;
     }
 
-     private static double diff(double a, double b){
+     public static double diff(double a, double b){
         return a-b;
     }
 
-     private static double multiplication(double a, double b){
+     public static double multiplication(double a, double b){
         return a*b;
     }
 
-     private static double division(double a, double b){
+     public static double division(double a, double b){
         return a/b;
     }
 
