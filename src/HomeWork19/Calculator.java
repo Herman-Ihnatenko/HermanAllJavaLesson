@@ -11,6 +11,9 @@ package HomeWork19;
 //- Константу (число Пи)
 
 public class Calculator {
+
+     public static final double PI = 3.14;
+
      public static double sum(double a, double b){
          return a+b;
     }
@@ -27,15 +30,13 @@ public class Calculator {
         return a/b;
     }
 
-    public static String longOfCircle(double r){
-         String result = String.valueOf(2 * 3.14 * r);
-         return result;
+    public static double longOfCircle(double r){
+         return 2 * PI * r;
     }
 
-    public static String squareOfCircle(double r){
-        String result1 = String.valueOf(3.14 * r * r);
-        System.out.printf("square of circle is: %.2f\n", 3.14 * r * r);
-        return result1;
+    public static double squareOfCircle(double r){
+
+        return PI * r * r;
     }
 
     public static void main(String[] args) {
@@ -43,7 +44,8 @@ public class Calculator {
         System.out.println("Difference: " + Calculator.diff(3, 6));
         System.out.println("Multiplication: " + Calculator.multiplication(3, 6));
         System.out.println("Division: " + Calculator.division(3, 6));
-        System.out.println("Long of circle is: "+ Calculator.longOfCircle(6));
-        squareOfCircle(6);
+        System.out.println("Long of circle is: "+ Calculator.longOfCircle(10.6));
+        System.out.println(squareOfCircle(10.6));
+       // System.out.println(Math.PI);
     }
 }
