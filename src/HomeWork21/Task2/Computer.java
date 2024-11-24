@@ -17,10 +17,35 @@ public class Computer {
     private Memory memory;
     private Storage storage;
 
-    public Computer(Processor processor, Memory memory) {
+    public Computer() {
+        this.memory = new Memory("Corsair", "792858-hdu-ci-38");
+        this.processor = new Processor("Intel", "i38-4843K");
+    }
+
+    public Processor getProcessor() {
+        return processor;
+    }
+
+    public void setProcessor(Processor processor) {
         this.processor = processor;
+    }
+
+    public Memory getMemory() {
+        return memory;
+    }
+
+    public void setMemory(Memory memory) {
         this.memory = memory;
     }
+
+    public Storage getStorage() {
+        return storage;
+    }
+
+    public void setStorage(Storage storage) {
+        this.storage = storage;
+    }
+
 
     @Override
     public String toString() {
