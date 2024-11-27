@@ -68,13 +68,21 @@ public class Autobus2 {
         this.passengers = passengers;
     }
 
+
+    ////////////////////////////////////////////////////////////
+
+
     @Override
     public String toString() {
-        return "Autobus{" +
-                "id=" + id + ", capacity=" + capacity +
-                ", driver=" + driver.toString() +
-                ", autopilot=" + autoPilot2.toString() +
-                '}';
+
+        StringBuilder sb = new StringBuilder("Autobus: {");
+        sb.append("id: ").append(id).append(", ");
+        sb.append("capacity: ").append(capacity).append(", ");
+        sb.append("driver: ").append(driver.toString()).append(", ");
+        sb.append("autoPilot2: ").append(autoPilot2.toString()).append(", ");
+        sb.append("}");
+        return sb.toString();
+
     }
 
     public BusDriver2 getDriver() {

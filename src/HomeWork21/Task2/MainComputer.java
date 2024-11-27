@@ -8,3 +8,7 @@ public class MainComputer {
         System.out.println(computer);
     }
 }
+
+/*
+https://docs.google.com/forms/d/e/1FAIpQLSfCVpvS7CJiFBcNnJ8kTxn9xTUISAQU4HjJzp4O5ScwtR_yKA/viewform
+ */

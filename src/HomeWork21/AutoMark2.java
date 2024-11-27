@@ -18,6 +18,7 @@ public class AutoMark2 {
 
         System.out.println("\n=================\n");
 
+
         BusDriver2 marge =new BusDriver2("Marge", "AE-6548745876");
         Autobus2 bus1 = new Autobus2(marge, 24);
 
