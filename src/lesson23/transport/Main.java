@@ -1,4 +1,4 @@
-package HomeWork22.Task2;
+package lesson23.transport;
 
 public class Main {
     public static void main(String[] args) {
