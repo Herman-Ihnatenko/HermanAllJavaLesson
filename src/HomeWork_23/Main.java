@@ -10,12 +10,21 @@ public class Main {
         double totalArea = 0;
         double totalPerimeter = 0;
 
-        for (Shape shape : shapes) {
-            totalArea += shape.area();
-            totalPerimeter += shape.perimeter();
+        for (int i = 0; i < shapes.length; i++) {
+            totalArea += shapes[i].area();
+            totalPerimeter += shapes[i].perimeter();
         }
 
         System.out.println("Общая площадь: " + totalArea);
         System.out.println("Общий периметр: " + totalPerimeter);
+
+        System.out.println("\n========================\n");
+
+        //TriangleSingle triangleSingle = TriangleSingle.getInstance();
+        //TriangleSingle triangleSingle2 = TriangleSingle.getInstance();
+
+        //System.out.println(triangleSingle);
+
     }
+
 }

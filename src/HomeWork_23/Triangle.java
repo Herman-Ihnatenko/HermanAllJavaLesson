@@ -9,6 +9,18 @@ public class Triangle extends Shape{
         this.a = a;
         this.b = b;
         this.c = c;
+
+        if (isValidSizes()) {
+            //TODO а можно ли мне создавать объект
+            System.out.println("Invalid size");
+        }
+
+
+
+    }
+
+    private boolean isValidSizes(){
+        return a < b + c && b < a + c && c < a + b;
     }
 
     @Override

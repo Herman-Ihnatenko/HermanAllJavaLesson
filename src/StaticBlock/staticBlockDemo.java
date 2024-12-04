@@ -24,7 +24,7 @@ public class staticBlockDemo {
 
     {
         System.out.println("NON-static block run!");
-        this.title = "Block Title";
+        this.title = "Book Title";
         this.capacity = 50;
     }
 
