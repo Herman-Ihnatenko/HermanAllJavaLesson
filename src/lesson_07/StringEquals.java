@@ -4,9 +4,9 @@ public class StringEquals {
     public static void main(String[] args) {
 
         int x = 10;
-        String str1 = "Java";
-        String str2 = "Java";
-        String str3 = new String("Java");
+        String str1 = "Pair";
+        String str2 = "Pair";
+        String str3 = new String("Pair");
         String str4 = "JAVA";
 
         System.out.println(str1 + "h" + str2 +"h"+ str3);

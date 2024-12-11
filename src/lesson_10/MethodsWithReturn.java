@@ -19,7 +19,7 @@ public class MethodsWithReturn {
         System.out.println(squareNumber(4.0));
         System.out.println(squareNumber(5));
 
-        String res = concatString("Java", 17);
+        String res = concatString("Pair", 17);
         System.out.println("res: " + res);
 
         int[] ints = fillArray();

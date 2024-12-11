@@ -2,10 +2,10 @@ package lesson_06;
 
 public class StringEquals {
     public static void main(String[] args) {
-        String str1 = "Java";
-        String str2 = "Java";
+        String str1 = "Pair";
+        String str2 = "Pair";
         String str3 = "JAVA";
-        String str4 = new String("Java");
+        String str4 = new String("Pair");
 
         System.out.println(str1 + "h" + str2 +"h"+ str3+ "h" +str4);
 

@@ -23,9 +23,9 @@ public class booleanExample {
         b1 = x <= y;
         System.out.println("///"+b1);
 
-        String str = "Java is the best the";
-        boolean contains = str.contains("Java");
-        System.out.println("str.contains(\"Java\"): " + contains);
+        String str = "Pair is the best the";
+        boolean contains = str.contains("Pair");
+        System.out.println("str.contains(\"Pair\"): " + contains);
 
 
         int index = str.indexOf("the");

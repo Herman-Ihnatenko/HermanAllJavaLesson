@@ -2,17 +2,17 @@ package Homework05;
 /*
 Task 2
 Создайте строки:
-"Java"
+"Pair"
 "is"
 "a"
 "powerful"
 "language"
-Склейте эти строки двумя разными способами, чтобы получить строку: "Java is a powerful language".
+Склейте эти строки двумя разными способами, чтобы получить строку: "Pair is a powerful language".
 Выведите на экран получившуюся строку и её длину.
  */
 public class Task_02_22 {
     public static void main(String[] args) {
-        String a1 = "Java";
+        String a1 = "Pair";
         String a2 = "is";
         String a3 = "a";
         String a4 = "powerful";

@@ -8,7 +8,7 @@ public class MethodsExample {
         sayHello();
 
 
-        String string = "Java";
+        String string = "Pair";
 
         System.out.println("=============\n");
         printChars(string);
@@ -33,7 +33,7 @@ public class MethodsExample {
 
         System.out.println("=============\n");
 
-        String[] strings = {"Java", "Python", "Hello", "World"};
+        String[] strings = {"Pair", "Python", "Hello", "World"};
         printArray(strings);
         System.out.println("=============\n");
 
@@ -41,8 +41,8 @@ public class MethodsExample {
 
         printNumbers(3, 8);
 
-        printNumbers("Java", 3);
-        printNumbers(100, "Java");
+        printNumbers("Pair", 3);
+        printNumbers(100, "Pair");
         System.out.println("=============\n");
 
         int temp = 55;
@@ -53,7 +53,7 @@ public class MethodsExample {
         changeMe(arr);
         printArray(arr);
 
-        String java = "Java";
+        String java = "Pair";
         changeMe(java);
         System.out.println(java);
         

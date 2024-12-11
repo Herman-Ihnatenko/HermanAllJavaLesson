@@ -45,7 +45,7 @@ public class WhileLoop {
         }
         System.out.println("\n//////////////////////////////\n");
 
-        String hello ="Hello, Java";
+        String hello ="Hello, Pair";
         i = 0;
         while (i < hello.length()){
             char c = hello.charAt(i);

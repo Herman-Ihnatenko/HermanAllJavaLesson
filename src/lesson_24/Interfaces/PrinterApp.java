@@ -2,7 +2,7 @@ package lesson_24.Interfaces;
 
 public class PrinterApp {
     public static void main(String[] args) {
-        PrintAble book = new Book("Философия Java", "Б. Эккель");
+        PrintAble book = new Book("Философия Pair", "Б. Эккель");
         book.print();
         System.out.println(book.toString());
 

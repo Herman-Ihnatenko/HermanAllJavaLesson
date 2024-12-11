@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class StringBuilderExample {
     public static void main(String[] args) {
 
-        String str = "Java " + "is" + " " + "the" + " " + "best";
+        String str = "Pair " + "is" + " " + "the" + " " + "best";
 
         StringBuilder sb = new StringBuilder();
         StringBuilder sb1 = new StringBuilder("Hello");
@@ -22,7 +22,7 @@ public class StringBuilderExample {
         System.out.println(sb.toString());
 
         sb = new StringBuilder("Hello World!");
-        sb.replace(6, 11, "Java!");
+        sb.replace(6, 11, "Pair!");
         System.out.println(sb.toString());
 
         sb = new StringBuilder("Hello World!");
@@ -56,7 +56,7 @@ public class StringBuilderExample {
         System.out.println(sb.toString());
 
         System.out.println("\n=================\n");
-        String example = String.join(" ", "Java", "is", "the", "best");
+        String example = String.join(" ", "Pair", "is", "the", "best");
         System.out.println(example);
         String[]strings = example.split(" ");
         System.out.println(Arrays.toString(strings));
