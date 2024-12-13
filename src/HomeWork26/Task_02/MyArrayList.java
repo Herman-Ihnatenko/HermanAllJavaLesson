@@ -5,6 +5,7 @@ import lists.MyList;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Iterator;
 
 /**
  * @author Sergey Bugaenko
@@ -286,6 +287,10 @@ public class MyArrayList<T> implements MyList<T> {
         }
     }
 
+    @Override
+    public Iterator<T> iterator() {
+        return null;
+    }
 }
 
 

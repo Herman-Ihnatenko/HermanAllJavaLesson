@@ -3,6 +3,7 @@ package lists;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Iterator;
 
 /**
  * @author Sergey Bugaenko
@@ -272,6 +273,28 @@ public class MyArrayList<T> implements MyList<T> {
         return result;
     }
 
+    @Override
+    public Iterator<T> iterator() {
+        return new MyIterator();
+    }
+
+    private class MyIterator implements Iterator<T>{
+
+        private int currentIndex =0;
+
+        @Override
+        public boolean hasNext() {
+            return currentIndex < cursor;
+        }
+
+        @Override
+        public T next() {
+            return array[currentIndex++];
+           // T value = array[currentIndex];
+           // currentIndex++;
+           // return value;
+        }
+    }
 }
 
 
