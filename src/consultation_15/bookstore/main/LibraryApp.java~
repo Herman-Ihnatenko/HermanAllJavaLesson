@@ -1,0 +1,9 @@
+package consultation_15.bookstore.main;
+
+
+public class LibraryApp {
+    public static void main(String[] args) {
+        
+    }
+
+}

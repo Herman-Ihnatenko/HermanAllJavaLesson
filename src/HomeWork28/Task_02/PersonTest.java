@@ -1,10 +1,12 @@
 package HomeWork28.Task_02;
 
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.stream.Stream;
 
@@ -69,13 +71,14 @@ public class PersonTest {
                 "test+1@mail.net"
         );
     }
-//////////////////////////////////////////////////HOMEWORK TASK 2///////////////////////////////////////////////////////////////////////////////////
-    @Test
-    void testValidPasswordSet() {
-        String validPassword = "qwerty1Q$";
+
+    @ParameterizedTest
+    @ValueSource(strings = {"qwerty8G!", "qwer2123ty8G!", "qwerrtvty8G!", "qWWWwerty8G!"})
+    void testValidPasswordSet(String validPassword) {
 
         person.setPassword(validPassword);
 
+        Assertions.assertNotNull(person.getPassword());
         assertEquals(validPassword, person.getPassword());
     }
 
@@ -87,14 +90,15 @@ public class PersonTest {
 
         person.setPassword(invalidPassword);
 
-        assertEquals(startPassword, person.getPassword());
         assertNotEquals(invalidPassword, person.getPassword());
+        assertEquals(startPassword, person.getPassword());
+
     }
 
 
     static Stream<String> invalidPasswordData() {
         return Stream.of(
-                "Vallied1234",
+                "qwer1Q$",
                 "voi$",
                 "qwe$",
                 "Q$",

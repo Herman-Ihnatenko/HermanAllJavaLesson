@@ -1,0 +1,4 @@
+package consultation_15.bookstore.main.service;
+
+public class BookService {
+}
