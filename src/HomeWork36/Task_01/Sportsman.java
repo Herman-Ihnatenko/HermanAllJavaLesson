@@ -63,5 +63,4 @@ public class Sportsman implements Comparable<Sportsman> {
     public void setScore(int score) {
         this.score = score;
     }
-
 }
