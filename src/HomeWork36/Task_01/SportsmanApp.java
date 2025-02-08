@@ -29,6 +29,5 @@ public class SportsmanApp {
             }
         });
         System.out.println(Arrays.toString(sportsmen));
-
     }
 }
