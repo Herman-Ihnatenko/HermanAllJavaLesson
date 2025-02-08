@@ -6,6 +6,7 @@ import java.util.Comparator;
 public class SportsmanApp {
     public static void main(String[] args) {
 
+
         Sportsman[] sportsmen = new Sportsman[5];
         sportsmen[0] = new Sportsman("Felix", 35, 160);
         sportsmen[1] = new Sportsman("Tammo", 35, 190);

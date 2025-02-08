@@ -5,6 +5,7 @@ package lesson_36;
  * {@code @date} 06.02.2025
  */
 
+
 public class Car implements Comparable<Car>{
     private String model;
     private int year;

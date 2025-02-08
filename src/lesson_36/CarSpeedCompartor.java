@@ -7,6 +7,7 @@ import java.util.Comparator;
  * {@code @date} 06.02.2025
  */
 
+
 public class CarSpeedCompartor implements Comparator<Car> {
     @Override
     public int compare(Car c1, Car c2) {

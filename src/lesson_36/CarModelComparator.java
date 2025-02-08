@@ -7,6 +7,7 @@ import java.util.Comparator;
  * {@code @date} 06.02.2025
  */
 
+
 public class CarModelComparator implements Comparator<Car> {
     // Сравнение машин по модели
     @Override

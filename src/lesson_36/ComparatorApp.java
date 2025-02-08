@@ -15,6 +15,7 @@ public class ComparatorApp {
         Arrays.sort(ints);
         System.out.println(Arrays.toString(ints));
 
+
         Car[] cars = new Car[6];
         cars[0] = new Car("Alfa", 2021, 120);
         cars[1] = new Car("BMW", 2000, 190);

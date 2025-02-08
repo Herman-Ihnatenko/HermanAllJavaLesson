@@ -2,6 +2,7 @@ package HomeWork36.Task_01;
 
 import java.util.Comparator;
 
+
 public class ScoreOfSportsman implements Comparator<Sportsman> {
 
     @Override
