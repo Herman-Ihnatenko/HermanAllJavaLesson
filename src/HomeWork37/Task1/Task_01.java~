@@ -1,0 +1,11 @@
+package HomeWork37.Task1;
+
+import java.util.List;
+
+public class Task_01 {
+
+    public List list(List list1, List list2) {
+        list1.retainAll(list2);
+        return list1;
+    }
+}
